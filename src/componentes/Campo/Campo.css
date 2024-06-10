@@ -1,0 +1,32 @@
+.campo {
+    margin: 24px 0;
+    font-family: "Montserrat", sans-serif;
+ 
+}
+
+.campo label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: block; /*posiciona a nombre encima de el campo de texto */
+    margin-bottom: 8px;
+}
+
+.campo input {
+    width: 100%;
+    background-color:#ffffff;
+    box-shadow: 10px 10px 30px rgba(0,0,0, 0.06);
+    border: none;/* permite que el campo no tenga bordes, sin color */
+    padding: 30px 20px;
+    outline-color: #6278F7;
+    font-size: 16px;
+    box-sizing: border-box;/*El valor border-box en el box-sizing hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente.*/
+
+}
+
+.campo-color input{
+
+    height: 40px;
+    padding:5px 20px;
+
+}
